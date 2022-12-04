@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "Asia/Tokyo",
+  "extends": [
+    "config:base"
+  ],
+  "reviewers": ["ekusiadadus"],
+  "prConcurrentLimit": 1,
+  "prCreation": "not-pending",
+  "major": {
+    "stabilityDays": 7
+  },
+  "minor": {
+    "stabilityDays": 3
+  },
+  "patch": {
+    "stabilityDays": 1
+  },
+  "separateMinorPatch": true
+}
